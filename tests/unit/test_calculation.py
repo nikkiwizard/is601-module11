@@ -23,3 +23,9 @@ def test_divide_by_zero_validation():
 def test_invalid_type_validation():
     with pytest.raises(ValidationError):
         CalculationCreate(a=1, b=2, type="Power")
+
+def test_invalid_calculation_type():
+    """Test that an invalid calculation type raises ValueError"""
+    # Bypass Pydantic validation by passing an invalid enum-like object
+    with pytest.raises(ValueError, match="Invalid calculation type"):
+        CalculationFactory.calculate(5, 3, "InvalidType")
