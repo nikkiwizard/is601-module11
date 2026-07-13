@@ -10,8 +10,8 @@ https://hub.docker.com/repository/docker/nikkiwizard/601_module11/general
 ![DockerHub](screenshots/dockerhub.png "Dockerhub screenshot")
 
 ## Running Tests
-To run tests locally, follow these commands:
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-pytest
+To run tests locally, follow these commands: <br>
+python3 -m venv venv <br>
+source venv/bin/activate <br>
+pip install -r requirements.txt <br>
+pytest <br>
