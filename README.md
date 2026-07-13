@@ -1,7 +1,7 @@
 ## Module 11
 
 ## DockerHub URL:
-https://hub.docker.com/repository/docker/nikkiwizard/601_module10/general
+https://hub.docker.com/repository/docker/nikkiwizard/601_module11/general
 
 ## Github Actions Run:
 ![Actions](screenshots/actions.png "Github Actions Workflow screenshot")
