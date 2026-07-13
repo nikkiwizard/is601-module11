@@ -83,8 +83,8 @@ jobs:
         with:
           push: true
           tags: |
-            nikkiwizard/601_module10:latest
-            nikkiwizard/601_module10:${{ github.sha }}
+            nikkiwizard/601_module11:latest
+            nikkiwizard/601_module11:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=nikkiwizard/601_module10:cache
+          cache-from: type=registry,ref=nikkiwizard/601_module11:cache
           cache-to: type=inline,mode=max
